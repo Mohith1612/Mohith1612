@@ -19,6 +19,21 @@ A real-time multi-user whiteboard using CRDTs over a binary WebSocket protocol, 
 
 ---
 
+### Open source
+
+**[floci](https://github.com/floci-io/floci)** &nbsp;·&nbsp; `Java` &nbsp;·&nbsp; local AWS emulator &nbsp;·&nbsp; [16 merged PRs](https://github.com/floci-io/floci/pulls?q=is%3Apr+author%3AMohith1612+is%3Amerged)
+DynamoDB performance work: [querying only the requested partition](https://github.com/floci-io/floci/pull/6668) and [keeping the live item map instead of copying the table](https://github.com/floci-io/floci/pull/6915) in memory mode. Also [ECS tasks through capacity provider strategies](https://github.com/floci-io/floci/pull/5500), [ephemeral task volumes](https://github.com/floci-io/floci/pull/5511), Cognito auth flows, S3 multipart validation, and SQS/EventBridge pagination fixes.
+
+**[cloud-init](https://github.com/canonical/cloud-init)** &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; Canonical &nbsp;·&nbsp; [9 merged PRs](https://github.com/canonical/cloud-init/pulls?q=is%3Apr+author%3AMohith1612+is%3Amerged)
+Fixed a bug where [unlocking an account wiped the user's password hash whenever `passwd -u` printed unrelated stderr](https://github.com/canonical/cloud-init/pull/7191), plus type annotations across the networking, datasource, and templating modules.
+
+**[typeshed](https://github.com/python/typeshed)** &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; [3 merged PRs](https://github.com/python/typeshed/pulls?q=is%3Apr+author%3AMohith1612+is%3Amerged)
+Return types for the `docker` library stubs.
+
+In review: [LXD](https://github.com/canonical/lxd/pull/19480) · [SigNoz](https://github.com/SigNoz/signoz/pull/12356) · [SigNoz Helm charts](https://github.com/SigNoz/charts/pull/899) · [SigNoz dashboards](https://github.com/SigNoz/dashboards/pull/397)
+
+---
+
 ### Writing
 
 I write about storage internals, performance engineering, and real-world debugging at **[blog.mohith16.com](https://blog.mohith16.com)**.
